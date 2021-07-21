@@ -5,37 +5,8 @@ import elementIcon from '../assets/templateIcons/element.svg'
 import echartsIcon from '../assets/templateIcons/echarts.png'
 import openlayersIcon from '../assets/templateIcons/openlayers.png'
 import g2Icon from '../assets/templateIcons/g2.png'
-import angularIcon from '../assets/templateIcons/angular.png'
 import vantIcon from '../assets/templateIcons/vant.png'
-import leafletIcon from '../assets/templateIcons/leaflet.png'
-import konvaIcon from '../assets/templateIcons/konva.png'
 
-/*
-const = {
-    name: '',
-    icon: '',
-    code: {
-        HTML: {
-            language: 'html',
-            content: ``,
-            resources: []
-        },
-        CSS: {
-            language: 'css',
-            content: '',
-            resources: []
-        },
-        JS: {
-            language: 'javascript',
-            content: ``,
-            resources: [{
-                name: '',
-                url: ''
-            }]
-        },
-    },
-}
-*/
 
 const vue3 = {
     name: 'Vue 3',
@@ -403,71 +374,6 @@ chart.render();`,
     },
 }
 
-const angular = {
-    name: 'Angular 1.x',
-    icon: angularIcon,
-    code: {
-        HTML: {
-            language: 'html',
-            content: `<div ng-app="">
-    <p>名字 : <input type="text" ng-model="name"></p>
-    <h1>Hello {{name}}</h1>
-    <p ng-bind="name"></p>
-</div>`,
-            resources: []
-        },
-        CSS: {
-            language: 'css',
-            content: '',
-            resources: []
-        },
-        JS: {
-            language: 'javascript',
-            content: ``,
-            resources: [{
-                name: 'angular',
-                url: 'https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js'
-            }]
-        },
-    },
-}
-
-const leaflet = {
-    name: 'Leaflet',
-    icon: leafletIcon,
-    code: {
-        HTML: {
-            language: 'html',
-            content: `<div id="mapid"></div>`,
-            resources: []
-        },
-        CSS: {
-            language: 'css',
-            content: '#mapid { height: 180px; }',
-            resources: [{
-                name: 'leaflet',
-                url: 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css'
-            }]
-        },
-        JS: {
-            language: 'javascript',
-            content: `const accessToken = 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw';
-var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: accessToken
-}).addTo(mymap);`,
-            resources: [{
-                name: 'leaflet',
-                url: 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js'
-            }]
-        },
-    },
-}
 
 const vant = {
     name: 'Vant',
@@ -511,60 +417,6 @@ Vue.use(vant.Lazyload);`,
     },
 }
 
-const konva = {
-    name: 'Konva',
-    icon: konvaIcon,
-    code: {
-        HTML: {
-            language: 'html',
-            content: `<div id="container"></div>`,
-            resources: []
-        },
-        CSS: {
-            language: 'css',
-            content: `.container {
-    width: 500px;
-    height: 500px;
-}`,
-            resources: []
-        },
-        JS: {
-            language: 'javascript',
-            content: `// first we need to create a stage
-var stage = new Konva.Stage({
-    container: 'container',   // id of container <div>
-    width: 500,
-    height: 500
-});
-
-// then create layer
-var layer = new Konva.Layer();
-
-// create our shape
-var circle = new Konva.Circle({
-    x: stage.width() / 2,
-    y: stage.height() / 2,
-    radius: 70,
-    fill: 'red',
-    stroke: 'black',
-    strokeWidth: 4
-});
-
-// add the shape to the layer
-layer.add(circle);
-
-// add the layer to the stage
-stage.add(layer);
-
-// draw the image
-layer.draw();`,
-            resources: [{
-                name: 'konva',
-                url: 'https://unpkg.com/konva@7.0.3/konva.min.js'
-            }]
-        },
-    },
-}
 
 /** 
  * javascript comment 
@@ -581,10 +433,7 @@ const templateList = [
     openLayers,
     eCharts,
     g2,
-    angular,
-    vant,
-    leaflet,
-    konva
+    vant
 ]
 
 export default templateList

@@ -2,7 +2,7 @@
   <div class="header">
     <div class="left">
       <h2>
-        代码在线预览
+        代码在线预览工具
       </h2>
     </div>
     <div class="right">
@@ -213,7 +213,7 @@ onBeforeUnmount(() => {
   padding: 0 20px;
 
   .left {
-    h1 {
+    h2 {
       color: #fff;
 
       img {

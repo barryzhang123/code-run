@@ -368,18 +368,6 @@ const cdnSiteList = [
     url: 'http://jscdn.upai.com/',
   },
   {
-    name: 'Staticfile CDN',
-    url: 'http://staticfile.org/',
-  },
-  {
-    name: '75CDN 前端静态资源库',
-    url: 'https://cdn.baomitu.com/',
-  },
-  {
-    name: '字节跳动静态资源公共库',
-    url: 'https://cdn.bytedance.com/',
-  },
-  {
     name: 'cdnjs',
     url: 'https://cdnjs.com/',
   },
