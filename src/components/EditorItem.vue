@@ -133,7 +133,7 @@ const preprocessor = ref(props.language)
 const noSpace = ref(false)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-12 19:16:00
  * @Desc: 修改预处理器
  */
@@ -142,7 +142,7 @@ const preprocessorChange = (e) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-04-29 20:05:50
  * @Desc: 创建编辑器
  */
@@ -197,7 +197,7 @@ watch(
 )
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 09:38:24
  * @Desc: 更新编辑器文档模型
  */
@@ -217,7 +217,7 @@ const updateDoc = (code, language) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-04-30 17:19:25
  * @Desc: 获取文档内容
  */
@@ -226,7 +226,7 @@ const getValue = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:30:08
  * @Desc: 点击添加资源
  */
@@ -275,7 +275,7 @@ const resize = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-18 10:16:50
  * @Desc: 监听dom大小变化
  */
@@ -288,7 +288,7 @@ const ro = new ResizeObserver((entries, observer) => {
 })
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-20 16:06:31
  * @Desc: 代码格式化
  */

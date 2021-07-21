@@ -1,6 +1,6 @@
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-13 11:35:24 
  * @Desc: 编译html 
  */
@@ -25,7 +25,7 @@ const html = (preprocessor, code) => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-13 11:35:30 
  * @Desc: 编译js 
  */
@@ -72,7 +72,7 @@ const js = (preprocessor, code) => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-13 11:35:34 
  * @Desc: 编译css 
  */

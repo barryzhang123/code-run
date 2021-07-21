@@ -47,7 +47,7 @@ const layout = computed(() => {
 })
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-19 16:14:08
  * @Desc: 布局处理
  */
@@ -70,7 +70,7 @@ const layoutHandle = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-19 16:31:54
  * @Desc: 通知预览窗口进行刷新
  */

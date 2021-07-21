@@ -5,7 +5,7 @@ import transform from '@/utils/transform'
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-07 10:32:20 
  * @Desc: 拼接html 
  */
@@ -24,7 +24,7 @@ export const assembleHtml = (head, body) => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-07 18:51:15 
  * @Desc: 判断类型 
  */
@@ -34,7 +34,7 @@ export const type = (obj) => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-19 16:10:59 
  * @Desc: 生成uuid 
  */
@@ -53,7 +53,7 @@ export const generateUUID = () => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-20 14:14:01 
  * @Desc: 编译
  */

@@ -6,7 +6,7 @@
 (() => {
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-05-12 18:22:12 
      * @Desc: 错误监听 
      */
@@ -29,7 +29,7 @@
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-05-07 20:22:41 
      * @Desc: 判断类型 
      */
@@ -39,7 +39,7 @@
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-05-08 09:33:40 
      * @Desc: 格式化数据 
      * data:数据、hasKey：是否是作为一个key的属性值、isLast：是否在对象或数组中是最后一项、visited：已经遍历过的对象/数组，用来检测循环引用、root：是否是根节点
@@ -120,7 +120,7 @@
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-05-07 19:53:56
      * @Desc: 处理数据
      */
@@ -157,7 +157,7 @@
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-05-10 09:41:41 
      * @Desc: 处理特定方法 
      */
@@ -316,7 +316,7 @@
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-05-12 18:22:05 
      * @Desc: 监听事件 
      */

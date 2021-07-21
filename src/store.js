@@ -39,7 +39,7 @@ const store = createStore({
     mutations: {
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-12 19:51:55 
          * @Desc: 设置编辑数据 
          */
@@ -49,7 +49,7 @@ const store = createStore({
 
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-06 17:29:28 
          * @Desc: 设置代码内容 
          */
@@ -62,7 +62,7 @@ const store = createStore({
 
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-12 19:48:49 
          * @Desc: 设置代码预处理器 
          */
@@ -75,7 +75,7 @@ const store = createStore({
 
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-13 20:01:01 
          * @Desc: 设置资源 
          */
@@ -88,7 +88,7 @@ const store = createStore({
 
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-14 11:25:01 
          * @Desc: 设置代码数据 
          */
@@ -134,7 +134,7 @@ const store = createStore({
 
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-20 15:41:55 
          * @Desc: 设置是否保留之前的日志 
          */
@@ -145,7 +145,7 @@ const store = createStore({
     actions: {
         /** 
          * javascript comment 
-         * @Author: 王林25 
+         * @Author: barryzhang 
          * @Date: 2021-05-12 19:49:17 
          * @Desc:  获取数据
          */

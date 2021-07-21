@@ -70,7 +70,7 @@ const errorCount = computed(() => {
 })
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-10 09:53:54
  * @Desc: 接收打印信息
  */
@@ -95,7 +95,7 @@ const onMessage = ({ data = {} }) => {
 window.addEventListener('message', onMessage)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-07 19:18:31
  * @Desc: 清空
  */
@@ -106,7 +106,7 @@ const clear = () => {
 proxy.$eventEmitter.on('clear_logs', clear)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-08 14:56:36
  * @Desc: 获取指定类名的第一个子节点
  */
@@ -121,7 +121,7 @@ const getChildByClassName = (el, className) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-08 14:50:05
  * @Desc: json数据展开收缩
  */
@@ -187,7 +187,7 @@ const jsonClick = (e) => {
 const jsInput = ref('')
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-12 15:07:04
  * @Desc: 动态执行js
  */

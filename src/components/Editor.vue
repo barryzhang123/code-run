@@ -226,7 +226,7 @@ const preprocessorListMap = {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-18 11:05:23
  * @Desc: 修改布局
  */
@@ -258,14 +258,14 @@ watch(
 )
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-17 20:24:11
  * @Desc: 尺寸变化
  */
 const sizeChange = () => {}
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 09:05:02
  * @Desc: 获取指定语言的数据
  */
@@ -276,7 +276,7 @@ const getIndexByType = (type) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-06 16:52:16
  * @Desc: 设置初始数据
  */
@@ -293,7 +293,7 @@ const setInitData = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-14 11:37:21
  * @Desc: 重新设置代码数据
  */
@@ -324,7 +324,7 @@ const autoRun = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-06 17:15:54
  * @Desc: 代码修改事件
  */
@@ -337,7 +337,7 @@ const codeChange = (item, code) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-12 19:17:26
  * @Desc: 修改预处理器
  */
@@ -390,7 +390,7 @@ const cdnSiteList = [
 ]
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 20:12:56
  * @Desc: 跳转到cdn服务
  */
@@ -403,7 +403,7 @@ const handleCdnCommand = (url) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:31:18
  * @Desc: 添加资源
  */
@@ -420,7 +420,7 @@ const addResource = (item) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:45:50
  * @Desc: 删除一个资源
  */
@@ -429,7 +429,7 @@ const deleteResource = (e) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:45:56
  * @Desc: 添加一个资源
  */
@@ -441,7 +441,7 @@ const addOneResource = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:50:06
  * @Desc: 取消添加资源
  */
@@ -452,7 +452,7 @@ const cancelAddResource = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 19:50:01
  * @Desc: 确认添加资源
  */
@@ -471,7 +471,7 @@ const confirmAddResource = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-14 11:38:21
  * @Desc: 发送运行代码的通知
  */

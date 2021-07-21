@@ -1,9 +1,9 @@
 <template>
   <div class="header">
     <div class="left">
-      <h1>
-        <img src="../assets/logo.png" alt="" />
-      </h1>
+      <h2>
+        代码在线预览
+      </h2>
     </div>
     <div class="right">
       <div class="btn" @click="openSetting">
@@ -95,7 +95,7 @@ const layout = computed(() => {
 })
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-14 10:33:04
  * @Desc: 运行
  */
@@ -112,7 +112,7 @@ const templateDialogVisible = ref(false)
 const templateData = ref(templateList)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-14 10:42:51
  * @Desc: 打开选择模板弹窗
  */
@@ -121,7 +121,7 @@ const openTemplate = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-14 11:22:32
  * @Desc: 选择某个模板
  */
@@ -155,7 +155,7 @@ const openSetting = () => {
 const showToolsList = ref(false)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-20 09:49:12
  * @Desc: 隐藏工具下拉菜单
  */
@@ -169,7 +169,7 @@ const exportNameInputDialogVisible = ref(false)
 const exportName = ref('')
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-20 09:52:20
  * @Desc: 导出zip
  */
@@ -179,7 +179,7 @@ const exportZipFile = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-20 14:08:08
  * @Desc: 确认导出
  */

@@ -64,7 +64,7 @@ provide('dir', ref(props.dir))
 const first = ref(true)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-04-29 15:19:58
  * @Desc: 计算每部分初始宽度
  */
@@ -109,7 +109,7 @@ const setInitSize = (width, height) => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-04-28 14:47:12
  * @Desc: 初始化
  */
@@ -128,7 +128,7 @@ const resizeInit = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-18 10:16:50
  * @Desc: 监听dom大小变化
  */

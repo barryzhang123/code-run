@@ -21,7 +21,7 @@ const suffixMap = {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-20 15:02:34 
  * @Desc: 生成html 
  */
@@ -52,7 +52,7 @@ const createHtml = (title, htmlStr, cssResources, jsResources) => {
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-20 10:00:40 
  * @Desc: 导出zip 
  */

@@ -96,7 +96,7 @@ window.addEventListener('message', ({ data = {} }) => {
 })
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-20 15:14:47
  * @Desc: 生成html结构
  */
@@ -145,7 +145,7 @@ const createHtml = (
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-07 09:13:28
  * @Desc: 运行
  */
@@ -195,7 +195,7 @@ watch(() => {
 }, run)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-12 18:10:22
  * @Desc: 动态执行js
  */
@@ -209,7 +209,7 @@ const dynamicRunJs = (code) => {
 proxy.$eventEmitter.on('dynamic_js_command', dynamicRunJs)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-13 10:48:19
  * @Desc: 打印日志
  */
@@ -224,7 +224,7 @@ proxy.$eventEmitter.on('log', log)
 const disabledEvents = ref(false)
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-26 10:03:40
  * @Desc: 拖动开始禁止响应iframe的鼠标事件，否则父页面不会触发鼠标事件导致拖动存在bug
  */
@@ -233,7 +233,7 @@ const onDragStart = () => {
 }
 
 /**
- * @Author: 王林25
+ * @Author: barryzhang
  * @Date: 2021-05-26 10:04:14
  * @Desc: 拖动结束解除禁止
  */

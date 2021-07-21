@@ -1,13 +1,13 @@
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-04-29 15:50:26 
  * @Desc: 尺寸拖动调整类 
  */
 class Resize {
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-04-29 15:50:41 
      * @Desc: 构造函数 
      */
@@ -32,7 +32,7 @@ class Resize {
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-04-28 14:47:12
      * @Desc: 初始化
      */
@@ -49,7 +49,7 @@ class Resize {
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-04-29 14:39:33 
      * @Desc: 获取某个区域允许的最小尺寸 
      */
@@ -62,7 +62,7 @@ class Resize {
 
     /** 
      * javascript comment 
-     * @Author: 王林25 
+     * @Author: barryzhang 
      * @Date: 2021-04-29 14:48:32 
      * @Desc: 获取某个区域允许的最大尺寸 
      */
@@ -77,7 +77,7 @@ class Resize {
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-04-28 14:47:09
      * @Desc: 获取第一个可以调整的元素索引
      */
@@ -106,7 +106,7 @@ class Resize {
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-04-28 14:47:03
      * @Desc: 判断是否允许拖动
      */
@@ -133,7 +133,7 @@ class Resize {
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-04-28 14:46:55
      * @Desc: 拖动开始
      */
@@ -142,7 +142,7 @@ class Resize {
     }
 
     /**
-     * @Author: 王林25
+     * @Author: barryzhang
      * @Date: 2021-04-28 14:47:17
      * @Desc: 拖动
      */

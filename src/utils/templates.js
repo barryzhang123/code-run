@@ -568,7 +568,7 @@ layer.draw();`,
 
 /** 
  * javascript comment 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-14 10:47:23 
  * @Desc: 模板列表 
  */

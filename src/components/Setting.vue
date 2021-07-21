@@ -73,7 +73,7 @@ const keepPreviousLogs = computed(() => {
 });
 
 /** 
- * @Author: 王林25 
+ * @Author: barryzhang 
  * @Date: 2021-05-20 15:41:16 
  * @Desc: 切换是否保留之前的日志 
  */
