@@ -1,7 +1,7 @@
 <template>
   <div class="previewContainer">
     <Drag :number="2" dir="v" :config="[{ min: 0 }, { min: 48, default: 48 }]">
-      <!-- 编辑器 -->
+      <!-- 预览页面 -->
       <DragItem :index="0" :disabled="true" :showTouchBar="false">
         <Preview></Preview>
       </DragItem>

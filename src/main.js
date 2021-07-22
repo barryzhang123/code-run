@@ -15,3 +15,8 @@ app.use(ElementPlus)
 app.use(router)
 app.use(store)
 app.mount('#app')
+
+//  启用vue devtool工具
+if ('__VUE_DEVTOOLS_GLOBAL_HOOK__' in window) {
+    // window.__VUE_DEVTOOLS_GLOBAL_HOOK__.Vue = app
+}

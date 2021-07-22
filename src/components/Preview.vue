@@ -130,9 +130,9 @@ const createHtml = (
   let body = `
     ${htmlStr}
     ${_jsResources}
-    ${openAlmightyConsole ? `<script src="/eruda/eruda.js"><\/script>` : ''}
+    ${openAlmightyConsole ? `<script src="https://unpkg.com/vconsole/dist/vconsole.min.js"><\/script>` : ''}
     <script>
-        ${openAlmightyConsole ? 'eruda.init();' : ''}
+        ${openAlmightyConsole ? 'var vConsole = new VConsole()' : ''}
         try {
           ${jsStr}
         } catch (err) {
@@ -197,7 +197,7 @@ watch(() => {
 /**
  * @Author: barryzhang
  * @Date: 2021-05-12 18:10:22
- * @Desc: 动态执行js
+ * @Desc: 在控制台的底部输入js, 动态执行js
  */
 const dynamicRunJs = (code) => {
   iframeRef.value.contentWindow.postMessage({
@@ -214,6 +214,7 @@ proxy.$eventEmitter.on('dynamic_js_command', dynamicRunJs)
  * @Desc: 打印日志
  */
 const log = (type, data) => {
+  debugger
   iframeRef.value.contentWindow.postMessage({
     type,
     data,

@@ -20,13 +20,13 @@
     </div>
     <div class="settingRow">
       <div class="content">
-        <span class="name">开启全能调试</span>
+        <span class="name">开启vConsole调试</span>
         <div class="control">
           <el-switch v-model="openAlmightyConsole" @change="openAlmightyConsoleChange"></el-switch>
         </div>
       </div>
       <div class="desc">
-        预览页面右下角会出现一个按钮，点击即可打开全能调试控制台
+        预览页面右下角会出现一个按钮，点击即可打开vConsole调试控制台
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ const autoRun = computed(() => {
 });
 
 /**
- * @Author: 王林
+ * @Author: barryyzhang
  * @Date: 2021-05-15 08:07:04
  * @Desc: 切换自动运行
  */
@@ -59,7 +59,7 @@ const openAlmightyConsole = computed(() => {
 });
 
 /** 
- * @Author: 王林 
+ * @Author: barryyzhang 
  * @Date: 2021-05-15 08:22:37 
  * @Desc:  切换全能调试
  */

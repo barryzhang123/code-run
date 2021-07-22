@@ -103,7 +103,7 @@ const layout = ref('')
 layout.value = store.state.editData.config.layout
 
 /**
- * @Author: 王林
+ * @Author: barryyzhang
  * @Date: 2021-05-15 08:07:04
  * @Desc: 切换布局
  */

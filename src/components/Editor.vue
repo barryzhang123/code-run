@@ -143,6 +143,8 @@ const dir = computed(() => {
 const openAlmightyConsole = computed(() => {
   return store.state.editData.config.openAlmightyConsole
 })
+
+// 默认的html、css、js编辑器
 const defaultEditorItemList = [
   {
     title: 'HTML',
@@ -178,10 +180,6 @@ const preprocessorListMap = {
       label: 'HTML',
       value: 'html',
     },
-    {
-      label: 'Pug',
-      value: 'pug',
-    },
   ],
   JS: [
     {
@@ -189,17 +187,13 @@ const preprocessorListMap = {
       value: 'javascript',
     },
     {
-      label: 'Babel',
+      label: 'JSX',
       value: 'babel',
     },
     {
       label: 'TypeScript',
       value: 'typescript',
-    },
-    {
-      label: 'CoffeeScript',
-      value: 'coffeescript',
-    },
+    }
   ],
   CSS: [
     {
@@ -305,7 +299,7 @@ const resetCode = () => {
 proxy.$eventEmitter.on('reset_code', resetCode)
 
 /**
- * @Author: 王林
+ * @Author: barryyzhang
  * @Date: 2021-05-15 08:29:29
  * @Desc: 自动运行
  */
@@ -362,10 +356,6 @@ const cdnSiteList = [
   {
     name: 'BootCDN',
     url: 'https://www.bootcdn.cn/',
-  },
-  {
-    name: '又拍云',
-    url: 'http://jscdn.upai.com/',
   },
   {
     name: 'cdnjs',

@@ -68,14 +68,12 @@ const supportLanguage = {
   stylus: 'scss',
   postcss: 'css',
   html: 'html',
-  pug: 'pug',
   javascript: 'javascript',
   babel: 'javascript',
-  typescript: 'typescript',
-  coffeescript: 'coffeescript',
+  typescript: 'typescript'
 }
 
-// 支持美化的语言
+// 支持格式化的语言
 const formatterParserMap = {
   css: 'css',
   sass: 'scss',
@@ -166,7 +164,7 @@ const createEditor = () => {
     editor = window.monaco.editor.create(editorEl.value, {
       model: null,
       minimap: {
-        enabled: false, // 关闭小地图
+        enabled: true, // 关闭小地图
       },
       wordWrap: 'on', // 代码超出换行
       theme: props.codeTheme || 'vs-dark', // 主题
@@ -297,6 +295,9 @@ const codeFormatter = () => {
     parser: formatterParserMap[props.language],
     plugins: prettierPlugins,
   })
+  console.log( `格式化前$$$: ${props.language}文本的内容: ${getValue()}`);
+  console.log( `格式化后$$$: ${props.language}文本的内容: ${str}`);
+
   // 设置文档内容
   updateDoc(str, props.language)
   // 监听编辑事件

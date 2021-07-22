@@ -24,6 +24,7 @@ import NewWindowPreview from './layouts/NewWindowPreview.vue'
 
 const { proxy } = getCurrentInstance()
 
+// 不同页面布局的组件集合
 const layoutMap = {
   default: Default,
   default2: Default2,

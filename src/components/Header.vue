@@ -14,7 +14,7 @@
       </div>
       <div class="dropdownBtn" @click.stop>
         <div class="btn" @click="showToolsList = !showToolsList">
-          <span class="icon el-icon-s-tools"></span> 工具
+          <span class="icon el-icon-s-tools"></span> 导出
         </div>
         <ul class="toolList" :class="{ show: showToolsList }">
           <li class="toolItem" @click="exportZipFile">导出zip</li>
@@ -101,6 +101,7 @@ const layout = computed(() => {
  */
 const run = () => {
   proxy.$eventEmitter.emit('run')
+  // 当前的模式是新开窗口预览, 则触发postmessage通知
   if (layout.value === 'newWindowPreview') {
     proxy.$eventEmitter.emit('preview_window_run')
   }
@@ -142,7 +143,7 @@ const componentsMap = ref({
 })
 
 /**
- * @Author: 王林
+ * @Author: barryzhang
  * @Date: 2021-05-15 07:28:49
  * @Desc: 打开设置弹窗
  */
@@ -326,8 +327,8 @@ onBeforeUnmount(() => {
     }
 
     .icon {
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;

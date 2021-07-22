@@ -12,7 +12,7 @@ const store = createStore({
             editData: {
                 config: {
                     codeTheme: 'vs-dark',
-                    openAlmightyConsole: false,
+                    openAlmightyConsole: false,// 是否打开全能控制台
                     autoRun: false,
                     layout: 'default',
                     keepPreviousLogs: true
@@ -97,7 +97,7 @@ const store = createStore({
         },
 
         /** 
-         * @Author: 王林 
+         * @Author: barryzhang 
          * @Date: 2021-05-15 08:08:04 
          * @Desc: 设置代码主题 
          */
@@ -106,7 +106,7 @@ const store = createStore({
         },
 
         /** 
-         * @Author: 王林 
+         * @Author: barryzhang 
          * @Date: 2021-05-15 08:16:38 
          * @Desc: 设置自动运行的状态 
          */
@@ -115,16 +115,16 @@ const store = createStore({
         },
 
         /** 
-         * @Author: 王林 
+         * @Author: barryzhang 
          * @Date: 2021-05-15 08:23:17 
-         * @Desc: 设置全能调试 
+         * @Desc: 设置vconsole调试 
          */
         setOpenAlmightyConsole(state, openAlmightyConsole) {
             state.editData.config.openAlmightyConsole = openAlmightyConsole
         },
 
         /** 
-         * @Author: 王林 
+         * @Author: barryzhang 
          * @Date: 2021-05-15 08:51:49 
          * @Desc: 设置布局 
          */

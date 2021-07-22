@@ -58,6 +58,7 @@ export const generateUUID = () => {
  * @Desc: 编译
  */
 export const compile = async (htmlLanguage, jsLanguage, cssLanguage, htmlContent, jsContent, cssContent) => {
+    // 加载不同类型的文件解析器
     await load([htmlLanguage, jsLanguage, cssLanguage])
     let htmlTransform = transform.html(htmlLanguage, htmlContent)
     let jsTransform = transform.js(jsLanguage, jsContent)
